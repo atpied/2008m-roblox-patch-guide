@@ -49,9 +49,9 @@ _Tools you need to patch:_
 # Playing
 Load any map, go to command and paste commands in turn:
 
-`game.Players:CreateLocalPlayer(0)
-game.Players.LocalPlayer.Name = "Test" --Your name here
-game.Players.LocalPlayer:LoadCharacter()
-game:GetService("RunService"):Run()`
+`game.Players:CreateLocalPlayer(0)`
+`game.Players.LocalPlayer.Name = "Test" --Your name here`
+`game.Players.LocalPlayer:LoadCharacter()`
+`game:GetService("RunService"):Run()`
 
 **Done! Have fun!**
